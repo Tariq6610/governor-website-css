@@ -1,0 +1,55 @@
+.signin-container {
+    min-height: 70%; /* min-h-[70%] */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem; /* gap-y-20 */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signin-home-button {
+    position: absolute;
+    top: 2rem; /* top-8 */
+    right: 2.5rem; /* right-10 */
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    background-color: #1f4c83;
+    color: white;
+    border-radius: 0.375rem; /* rounded-md */
+  }
+  
+  .signin-heading {
+    font-size: 2.5rem; /* text-4xl */
+    font-weight: 800; /* font-extrabold */
+    color: #1f4c83;
+  }
+  
+  .form-container {
+    min-width: 600px; /* min-w-[600px] */
+    padding: 2.5rem; /* p-10 */
+    min-height: 18rem; /* min-h-72 */
+    box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25); /* shadow-2xl */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* gap-y-6 */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.75rem; /* p-3 */
+    border: 1px solid #4b5563; /* border-gray-600 */
+    border-radius: 0.375rem; /* rounded-md */
+  }
+  
+  .signup-link {
+    display: flex;
+    gap: 1rem; /* gap-x-4 */
+  }
+  
+  .signup-button {
+    padding: 0.25rem 0.75rem; /* px-3 py-1 */
+    background-color: #1f4c83;
+    color: white;
+    border-radius: 0.375rem; /* rounded-md */
+  }
+  

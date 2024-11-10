@@ -1,0 +1,170 @@
+.navbar {
+    display: flex;
+    height: 5rem;
+    z-index: 50;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+    background-color: #1f4c83;
+  }
+  
+  .dropdown {
+    display: none; 
+  }
+  
+  .dropdown.show {
+    display: block; 
+  }
+  
+  .dropdown.hide {
+    display: none; 
+  }
+  
+  .navbar-lg {
+    justify-content: space-around;
+  }
+  
+  .navbar-md {
+    padding-left: 3rem; 
+    padding-right: 3rem;
+  }
+  
+  .logo {
+    margin-top: 3.5rem;
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .logo-md {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .header-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #b9d8f3;
+  }
+  
+  .header-lg-hidden {
+    display: block;
+  }
+  
+  .header-lg-visible {
+    display: none;
+  }
+  
+  .menu-button {
+    display: block;
+    font-size: 2rem;
+  }
+  
+  .menu-button-hidden {
+    display: none;
+  }
+  
+  .menu-items {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .menu-items.show {
+    display: flex;
+  }
+  
+  .menu-items-lg {
+    width: 400px;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+    width: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    margin-bottom: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #67acf0;
+    color: black;
+  }
+  
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    z-index: -20;
+    top: 5rem;
+    left: 0;
+    align-items: center;
+    color: white;
+    background-color: #1f4c83;
+  }
+  
+  .mobile-menu.show {
+    display: flex;
+  }
+  
+  .mobile-menu-item {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .mobile-menu-item:hover {
+    background-color: #67acf0;
+    color: black;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  
+    .logo {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .header-lg-hidden {
+      display: none;
+    }
+  
+    .header-lg-visible {
+      display: block;
+    }
+  
+    .menu-button {
+      display: none;
+    }
+  
+    .menu-items {
+      display: flex;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .navbar {
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+  }
+  

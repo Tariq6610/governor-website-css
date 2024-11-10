@@ -1,0 +1,36 @@
+.footer-container {
+    background-color: #fff1f2; 
+  }
+  
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5rem 0; 
+    margin: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-inner {
+      width: 80%;
+    }
+  }
+  
+  .footer-heading {
+    font-size: 1.25rem; 
+    font-weight: bold; 
+    margin-bottom: 0.75rem; 
+  }
+  
+  .footer-list {
+    margin-bottom: 1rem; 
+  }
+  
+  .footer-list-item {
+    margin-bottom: 0.5rem; 
+  }
+  
+  .footer-list-item:hover {
+    text-decoration: underline; 
+  }
+  
